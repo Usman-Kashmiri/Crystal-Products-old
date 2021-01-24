@@ -1,0 +1,64 @@
+/* Nav-Bar */
+
+.nav-item:active {
+    background-color: #51cefc;
+}
+
+.active a {
+    background-color: #51cefc;
+}
+
+.nav-item {
+    opacity: 1;
+}
+
+.nav-item .active {
+    opacity: 1;
+}
+
+.search-btn-cc {
+    text-decoration: none;
+    border: 0.8px solid #51cefc;
+    display: inline-block;
+    color: #51cefc;
+    background-color: transparent;
+}
+
+
+/* Social Icons - Footer */
+
+.social-links {
+    text-align: center;
+}
+
+.social-links .fa {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #51cefc;
+    border: 1px #51cefc;
+    border-radius: 50%;
+    margin: 20px 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social-links .fa:hover {
+    background-color: #51cefc;
+    border-radius: 50%;
+    color: #fff;
+    transform: translateY(-9px);
+}
+
+.social-links p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* Footer */
+
+.footer h3 {
+    padding-top: 1%;
+}
