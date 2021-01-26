@@ -1,64 +1,68 @@
-/* Nav-Bar */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-.nav-item:active {
+
+/*banner*/
+
+#banner {
+    height: 100vh;
+}
+
+
+/* Slider */
+
+#slider {
+    margin: -38% auto 0 0.3%;
+    z-index: -1;
+    padding: 6px;
+    width: 67%;
+}
+
+.shop-now-btn {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 20%;
     background-color: #51cefc;
-}
-
-.active a {
-    background-color: #51cefc;
-}
-
-.nav-item {
-    opacity: 1;
-}
-
-.nav-item .active {
-    opacity: 1;
-}
-
-.search-btn-cc {
-    text-decoration: none;
-    border: 0.8px solid #51cefc;
-    display: inline-block;
-    color: #51cefc;
-    background-color: transparent;
-}
-
-
-/* Social Icons - Footer */
-
-.social-links {
-    text-align: center;
-}
-
-.social-links .fa {
-    height: 40px;
-    width: 40px;
-    font-size: 20px;
-    line-height: 40px;
-    color: #51cefc;
-    border: 1px #51cefc;
-    border-radius: 50%;
-    margin: 20px 5px 0;
+    font-size: 38px;
+    color: white;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border-radius: 6px;
+    border: none;
+    margin: 48% auto 0 2%;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
-.social-links .fa:hover {
-    background-color: #51cefc;
-    border-radius: 50%;
-    color: #fff;
+.shop-now-btn:hover {
+    background-color: #3555e6;
+}
+
+.new-img {
+    margin-top: 5%;
+    width: 28%;
+    margin-left: 70%;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.special-img {
+    margin-top: 5%;
+    width: 28%;
+    margin-left: 70%;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.new-img:hover {
     transform: translateY(-9px);
 }
 
-.social-links p {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-
-/* Footer */
-
-.footer h3 {
-    padding-top: 1%;
+.special-img:hover {
+    transform: translateY(-9px);
 }
