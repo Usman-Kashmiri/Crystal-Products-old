@@ -1,13 +1,13 @@
 /* FONT IMPORT */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -22,15 +22,24 @@ body {
 
 /* Nav-Bar */
 
-.nav-item:active {
+.navbar {
+    margin: 0;
+}
+
+.bg-cc {
     background-color: #51cefc;
+}
+
+.nav-item:active {
+    background-color: #000000;
 }
 
 .active a {
-    background-color: #51cefc;
+    background-color: #000000;
 }
 
 .nav-item {
+    font-weight: 600;
     opacity: 1;
 }
 
@@ -40,9 +49,9 @@ body {
 
 .search-btn-cc {
     text-decoration: none;
-    border: 0.8px solid #51cefc;
+    border: 0.8px solid #000000;
     display: inline-block;
-    color: #51cefc;
+    color: #000000;
     background-color: transparent;
 }
 
@@ -50,6 +59,9 @@ body {
 /* Social Icons - Footer */
 
 .social-links {
+    display: block;
+    position: relative;
+    z-index: 2;
     text-align: center;
 }
 
@@ -58,8 +70,8 @@ body {
     width: 40px;
     font-size: 20px;
     line-height: 40px;
-    color: #51cefc;
-    border: 1px #51cefc;
+    color: #000000;
+    border: 1px #000000;
     border-radius: 50%;
     margin: 20px 5px 0;
     cursor: pointer;
@@ -67,7 +79,7 @@ body {
 }
 
 .social-links .fa:hover {
-    background-color: #51cefc;
+    background-color: #000000;
     border-radius: 50%;
     color: #fff;
     transform: translateY(-9px);
@@ -81,6 +93,55 @@ body {
 
 /* Footer */
 
+.footer-img {
+    max-width: 140px;
+    opacity: 0.6;
+    left: 50%;
+    z-index: 1;
+    margin-top: 5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
 .footer h3 {
     padding-top: 1%;
+}
+
+@media screen and (max-width: 1920px) {
+    .footer-img {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .footer-img {
+        margin-top: 5.5%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .footer-img {
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-img {
+        max-width: 135px;
+        margin-top: 7.5%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .footer-img {
+        max-width: 125px;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .footer-img {
+        max-width: 100px;
+        margin-top: 18%;
+    }
 }
